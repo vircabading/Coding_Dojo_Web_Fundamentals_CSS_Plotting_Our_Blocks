@@ -4,3 +4,53 @@
     By: Virgilio D. Cabading Jr.
     Created: October 12, 2021
     //////////////////////////////////////////////////*/
+
+.container {
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 50px;
+}
+
+.container>* {
+    margin: 10px;
+}
+
+.top-nav {
+    height: 150px;
+    background-color: green;
+    display: block;
+}
+
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main>* {
+    margin: 10px;
+}
+
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+}
